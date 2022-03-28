@@ -1,0 +1,9 @@
+BandMarching
+BlowDryHair
+BrushingTeeth
+CuttingInKitchen
+PlayingFlute
+PlayingSitar
+ShavingBeard
+Typing
+WritingOnBoard

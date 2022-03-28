@@ -1,0 +1,12 @@
+ApplyEyeMakeup
+ApplyLipstick
+BabyCrawling
+BlowingCandles
+Haircut
+Hammering
+HeadMassage
+Knitting
+MoppingFloor
+PlayingCello
+PlayingDaf
+PlayingDhol
