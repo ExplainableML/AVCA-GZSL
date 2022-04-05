@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=1 python3 get_clusters.py --root_dir /home/lriesch29/master_thesis/dat/ActivityNet_all_local/ --weights_path /shared-network/lriesch29/models/selavi_vgg_sound.pth --mode train --pretrained False --aud_sample_rate 44100 --use_mlp False --dataset activity --headcount 2 --exp_desc activity_all_classes512_numsecaud1_avg_20_0 --output_dir outputs/pretrained_VGGSound/ActivityNet/out512_avg --batch_size 1 --workers 0 --run 0
+
+
+CUDA_VISIBLE_DEVICES=4 python3 get_clusters.py --root_dir /home/lriesch29/master_thesis/dat/ActivityNet_all_local/ --weights_path /shared-local/models/selavi_vgg_sound.pth --mode train --pretrained False --aud_sample_rate 44100 --use_mlp False --dataset activity --headcount 2 --exp_desc activity_all_classes512_numsecaud1_avg_20_1 --output_dir outputs/pretrained_VGGSound/ActivityNet/out512_avg --batch_size 1 --workers 0 --run 1
+
+CUDA_VISIBLE_DEVICES=1 python3 get_clusters.py --root_dir /home/lriesch29/master_thesis/dat/ActivityNet_all_local/ --weights_path /shared-local/models/selavi_vgg_sound.pth --mode train --pretrained False --aud_sample_rate 44100 --use_mlp False --dataset activity --headcount 2 --exp_desc activity_all_classes512_numsecaud1_avg_20_2 --output_dir outputs/pretrained_VGGSound/ActivityNet/out512_avg --batch_size 1 --workers 0 --run 2
+
+CUDA_VISIBLE_DEVICES=1 python3 get_clusters.py --root_dir /home/lriesch29/master_thesis/dat/ActivityNet_all_local/ --weights_path /shared-local/models/selavi_vgg_sound.pth --mode train --pretrained False --aud_sample_rate 44100 --use_mlp False --dataset activity --headcount 2 --exp_desc activity_all_classes512_numsecaud1_avg_20_3 --output_dir outputs/pretrained_VGGSound/ActivityNet/out512_avg --batch_size 1 --workers 0 --run 3
+
+
+
+OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=4 python3 get_clusters.py --root_dir /home/lriesch29/master_thesis/dat/ActivityNet_all_local/ --weights_path /shared-local/models/selavi_vgg_sound.pth --mode train --pretrained False --aud_sample_rate 44100 --use_mlp False --dataset activity --headcount 2 --exp_desc activity_all_classes512_numsecaud1_avg_20_8 --output_dir outputs/pretrained_VGGSound/ActivityNet/out512_avg --batch_size 1 --workers 0 --run 8
+
