@@ -312,7 +312,7 @@ If you find this code useful, please consider citing:
 
 ```
 @inproceedings{mercea2022avca,
-  author    = {Mercea, Otniel and Riesch, Lukas and Koepke, A. Sophia and Akata, Zeynep},
+  author    = {Mercea, Otniel-Bogdan and Riesch, Lukas and Koepke, A. Sophia and Akata, Zeynep},
   title     = {Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language},
   booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2022}
