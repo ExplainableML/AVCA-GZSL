@@ -1,5 +1,9 @@
 # Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language
 
+## [Paper](https://arxiv.org/abs/2203.03598) | [Project Page](https://www.eml-unitue.de/publication/audio-visual-zsl)
+
+
+
 This repository is the official implementation of [Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language
 ](https://arxiv.org/abs/2203.03598).
 <img src="/img/audio-visual-zsl.png" width="700" height="400">
